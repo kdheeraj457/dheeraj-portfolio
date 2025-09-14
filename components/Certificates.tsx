@@ -10,9 +10,7 @@ const CertificatesPage = () => {
         {certificates.map((cert) => (
           <div key={cert.id} className="border p-4 rounded shadow">
             <Image
-              src={cert.image}
-              // src={`dheeraj-portfolio${cert.image}`}
-
+              src={`${cert.image}`}
               alt={cert.description}
               width={400}
               height={300}

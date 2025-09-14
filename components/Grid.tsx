@@ -14,9 +14,7 @@ const Grid = () => {
             // remove icon prop
             // remove original classname condition
             className={item.className}
-            // img={`dheeraj-portfolio${item.img}`}
             img={`${item.img}`}
-
             imgClassName={item.imgClassName}
             titleClassName={item.titleClassName}
             spareImg={item.spareImg}

@@ -43,8 +43,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    img: "/dheeraj-portfolio/grid.svg",
+    spareImg: "/dheeraj-portfolio/b4.svg",
   },
 
   
@@ -56,7 +56,7 @@ export const projects = [
     id: 1,
     title: "Personalized Learning Platform",
     des: "Built an AI-driven platform that creates tailored learning roadmaps based on user input. Developed with Python, JavaScript, and HTML/CSS.",
-    img: "/p1.svg",
+    img: "/dheeraj-portfolio/p1.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
   },
@@ -64,7 +64,7 @@ export const projects = [
     id: 2,
     title: "Dog Breed Identification System",
     des: "Developed a high-accuracy dog breed classifier using transfer learning with VGG19 and Keras. Achieved 99% validation accuracy.",
-    img: "/p2.svg",
+    img: "/dheeraj-portfolio/p2.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
@@ -127,21 +127,21 @@ export const workExperience = [
     title: "AI Developer – Personalized Learning Platform",
     desc: "Built an AI-driven platform that creates tailored learning roadmaps based on user input. Developed with Python, JavaScript, and HTML/CSS.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/dheeraj-portfolio/exp1.svg",
   },
   {
     id: 2,
     title: "ML Engineer – Dog Breed Identification System",
     desc: "Developed a high-accuracy dog breed classifier using transfer learning with VGG19 and Keras. Achieved 99% validation accuracy.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/dheeraj-portfolio/exp2.svg",
   },
   {
     id: 3,
     title: "Freelance App Dev Project",
     desc: "Created a full-featured auction system using HTML, CSS, JavaScript (frontend) and PHP, MySQL (backend) for product bidding and listing.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/dheeraj-portfolio/exp3.svg",
   
   },
   
@@ -150,15 +150,15 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/dheeraj-portfolio/git.svg",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/dheeraj-portfolio/twit.svg",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/dheeraj-portfolio/link.svg",
   },
 ];
 
@@ -166,15 +166,34 @@ export const socialMedia = [
 export const certificates = [
   {
     id: 1,
-    image: "/certs/CertificateKaggleSQL.png",
-    description: "React Developer Certificate by XYZ Academy",
+    image: "/dheeraj-portfolio/certs/CertificateKaggleSQL.png",
+    description: "Kaggle SQL Certificate",
     fileName: "Kaggle-SQL.pdf",
   },
   {
     id: 2,
-    image: "/certs/MachineLearning.png",
-    description: "Advanced JavaScript Course Completion",
+    image: "/dheeraj-portfolio/certs/MachineLearning.png",
+    description: "L&T Machine Learning Certificate",
     fileName: "Machine-Learning.pdf",
+  },
+
+  {
+    id: 3,
+    image: "/dheeraj-portfolio/certs/CertificateDesign.png",
+    description: "L&T Design Thinking Certificate",
+    fileName: "DesignThinking.pdf",
+  },
+  {
+    id: 4,
+    image: "/dheeraj-portfolio/certs/CertificateDeepLearning.png",
+    description: "L&T Deep Learning Certificate",
+    fileName: "DeepLearning.pdf",
+  },
+  {
+    id: 5,
+    image: "/dheeraj-portfolio/certs/CertificateSmartInternz.png",
+    description: "SmartInternz Externship",
+    fileName: "CertificateSmartInternz.pdf",
   },
   // Add more certificates here
 ];

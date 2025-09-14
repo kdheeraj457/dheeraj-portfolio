@@ -37,9 +37,7 @@ const Experience = () => {
                 className="lg:w-32 md:w-20 w-16"
               /> */}
               <Image
-                
-                src={card.thumbnail}
-                // src={`dheeraj-portfolio${card.thumbnail}`}
+                src={`${card.thumbnail}`}
                 alt={card.thumbnail}
                 width={128} // approximate for lg:w-32 (32 * 4 = 128px)
                 height={128}
